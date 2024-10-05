@@ -10,3 +10,15 @@ npx create-next-app --example https://github.com/alizare121/next-app-starterkit 
 npx degit https://github.com/alizare121/next-app-starterkit <APP NAME>
 
 ```
+
+
+## Features
+
+The following features are installed and pre-configured in this starter kit:
+
+  * Next js 
+  * TypeScript
+  * Tailwind CSS
+  * ESLint
+  * Redux toolkit
+  * husky and commitizen
