@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": ["node_modules"],
+  "include": [
+        "next-env.d.ts",
+        "types/**/*.d.ts",
+    "C:/Users/a.zare/Desktop/Project/next-app-starterkit/src/app/layout.tsx",
+    "C:/Users/a.zare/Desktop/Project/next-app-starterkit/src/app/page.tsx",
+    "C:/Users/a.zare/Desktop/Project/next-app-starterkit/src/app/store/redux/rootReducer.ts",
+    "C:/Users/a.zare/Desktop/Project/next-app-starterkit/src/app/store/redux/rtk/emptySplitApi.tsx",
+    "C:/Users/a.zare/Desktop/Project/next-app-starterkit/src/app/store/redux/store.ts",
+    "C:/Users/a.zare/Desktop/Project/next-app-starterkit/src/app/store/storeProvider.tsx",
+    "unused"
+  ]
+}
