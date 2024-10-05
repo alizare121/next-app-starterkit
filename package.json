@@ -13,7 +13,7 @@
     "commit": "git-cz",
     "precommit": "yarn lint && yarn prettier",
     "prettier": "prettier --write ./**/*.{js,ts,tsx}",
-    "pre-push": "git pull origin master && git pull origin stage && git pull origin develop || (echo 'Conflict detected. Please resolve manually.' && exit 1)"
+    "pre-push": "git pull origin main || (echo 'Conflict detected. Please resolve manually.' && exit 1)"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
